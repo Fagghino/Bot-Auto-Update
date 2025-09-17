@@ -1,0 +1,12 @@
+Voglio creare uno script PowerShell che distribuisco su GitHub e che possa essere eseguito da terminale con una singola stringa, ad esempio:
+
+irm https://raw.githubusercontent.com/<user>/<repo>/main/update.ps1 | iex
+
+Lo script deve:
+1. Recuperare la lista delle app installate sul PC (esempio da winget o dal mio script esistente).
+2. Mostrare una GUI (Windows Forms o WPF) con la lista delle app in formato checklist, così l’utente può selezionare quali aggiornare.
+3. Avere un pulsante "Aggiorna" che lancia l’aggiornamento solo delle app selezionate.
+4. Mostrare un log/progresso (in una text area o finestra) per far vedere cosa sta succedendo.
+5. Essere scritto in modo modulare così che io possa aggiungere facilmente nuove funzioni o altre operazioni in futuro.
+
+Genera per me il codice PowerShell completo.
