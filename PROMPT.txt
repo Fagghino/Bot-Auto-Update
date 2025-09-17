@@ -10,3 +10,4 @@ Lo script deve:
 5. Essere scritto in modo modulare così che io possa aggiungere facilmente nuove funzioni o altre operazioni in futuro.
 
 Genera per me il codice PowerShell completo.
+
